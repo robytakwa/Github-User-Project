@@ -11,12 +11,13 @@ android {
     defaultConfig {
         applicationId "com.robby.exprojectgithub"
         minSdk 21
+        //noinspection ExpiredTargetSdkVersion
         targetSdk 32
         versionCode 1
         versionName "1.0"
 
         buildConfigField("String", "API_URL", '"https://api.github.com/"')
-        buildConfigField("String", "TOKEN", '"token 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"')
+        buildConfigField("String", "TOKEN", '"token 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"')
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -79,4 +80,8 @@ dependencies {
 
     implementation "androidx.datastore:datastore-preferences-core:1.0.0"
     implementation "androidx.datastore:datastore-preferences:1.0.0"
+
+    // chucker
+    debugImplementation "com.github.chuckerteam.chucker:library:3.5.2"
+    releaseImplementation "com.github.chuckerteam.chucker:library-no-op:3.5.2"
 }

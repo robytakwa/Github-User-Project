@@ -16,6 +16,7 @@
 - [**Room**](https://developer.android.com/topic/libraries/architecture/room) for persistence.
 - [**Navigation Component**](https://developer.android.com/guide/navigation) for navigation
 - [**LiveData**] (https://developer.android.com/topic/libraries/architecture/livedata)
+- [**Junit**] for unit test
 - **Android Support Libraries**
 
 ## Fitur Tambahan
